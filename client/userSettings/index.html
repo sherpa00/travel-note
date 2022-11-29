@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user settings</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+    <h2>
+        User settings
+    </h2>
+
+    <form id="usernameForm">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" />
+        <button type="submit">Change Username</button>
+    </form>
+
+    <form id="emailForm">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+        <button type="submit">Change Email</button>
+    </form>
+
+    <form id="passwordForm">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" />
+        <button type="submit">Change Password</button>
+    </form>
+
+    <button id="deleteAccount">
+        Delete Account
+    </button>
+
+    <button id="goback">
+        <a href="/home">
+            Go back
+        </a>
+    </button>
+
+    <script src="./app.js"></script>
+</body>
+</html>
